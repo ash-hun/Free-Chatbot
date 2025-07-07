@@ -1,0 +1,1 @@
+docker build -t free_chatbot:latest -f environments/Dockerfile .
