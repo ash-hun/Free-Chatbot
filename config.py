@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
-        env_file="./environment/.env",
+        env_file="./environments/.env",
         env_file_encoding="utf-8",
     )
     CONTAINER_NAME: str
